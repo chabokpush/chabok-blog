@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+{{ $author := .Site.Params.Author }}
+{{ if .Params.Author }}
+{{ $author = .Params.Author }}
+{{ end }}
+<div class="col-md-6 col-md-offset-3" id="content">
+    <article class="h-entry">
+        <header class="mt-60">
+            <h1 class="post-title p-name">{{ .Title }}</h1>
+            {{ if .Params.categories }}
+            <p class="post-tag">Category:
+                {{ range .Params.categories }}
+                <a href="{{ $baseurl }}/categories/{{ . | urlize }}" class="post-tag p-category">{{ . }}</a>
+                {{ end }}
+            </p>
+            <hr class="post-underline">
+            {{ end }}
+        </header>
+        <section class="content e-content">
+            {{ .Content }}
+        </section>
+        <hr>
+        <div class="avatar" style='background-image: url({{ .Site.BaseURL }}/images/{{ .Params.avatar }})'></div>
+        <span class="author">{{ .Params.Author }}</span>
+        <span class="pip">|</span>
+        <span class="date">
+            <script >
+                function persianDigit(text) {
+                    text += '';
+                    if( !text ) return '';
+                    return text.replace(/0/g, '۰')
+                        .replace(/1/g, '۱')
+                        .replace(/2/g, '۲')
+                        .replace(/3/g, '۳')
+                        .replace(/4/g, '۴')
+                        .replace(/5/g, '۵')
+                        .replace(/6/g, '۶')
+                        .replace(/7/g, '۷')
+                        .replace(/8/g, '۸')
+                        .replace(/9/g, '۹');
+                }
+                document.write(persianDigit(moment('{{ .Date.Format "2006-01-02T15:04:05"  }}', 'YYYY-M-DTHH:mm:ss')
+                    .locale('fa')
+                    .format('jD jMMMM jYYYY')))
+            </script>
+        </span>
+    </article>
+</div>
+{{ partial "footer.html" . }}

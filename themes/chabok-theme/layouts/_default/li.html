@@ -1,0 +1,50 @@
+<article class="col-xl-4 col-md-6 col-lg-6">
+    <div class="col-md-12 article">
+        <div class="row" style='height: 200px;background-image: url({{ .Site.BaseURL }}/images/{{ .Params.img }});background-size: cover;'>
+            <!--<img src="{{ .Site.BaseURL }}/images/{{ .Params.img }}" alt="">-->
+        </div>
+        <header>
+            {{ if .Title }}
+            <h2 class="list-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ end }}
+            <!--<span class="list-post-date">-->
+                <!--<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">-->
+                <!--{{ .PublishDate.Format "2 January, 2006 at 15:04 MST" }}-->
+                <!--</time>-->
+            <!--</span>-->
+        </header>
+
+        <div class="summary">
+            <p>{{ .Params.summary }}</p>
+        </div>
+        <div>
+            <div class="avatar" style='background-image: url({{ .Site.BaseURL }}/images/{{ .Params.avatar }})'></div>
+            <span class="author">{{ .Params.Author }}</span>
+            <span class="pip">|</span>
+            <span class="date">
+                <script >
+                    function persianDigit(text) {
+                        text += '';
+                        if( !text ) return '';
+                        return text.replace(/0/g, '۰')
+                            .replace(/1/g, '۱')
+                            .replace(/2/g, '۲')
+                            .replace(/3/g, '۳')
+                            .replace(/4/g, '۴')
+                            .replace(/5/g, '۵')
+                            .replace(/6/g, '۶')
+                            .replace(/7/g, '۷')
+                            .replace(/8/g, '۸')
+                            .replace(/9/g, '۹');
+                    }
+                    document.write(persianDigit(moment('{{ .Date.Format "2006-01-02T15:04:05"  }}', 'YYYY-M-DTHH:mm:ss')
+                        .locale('fa')
+                        .format('jD jMMMM jYYYY')))
+                </script>
+            </span>
+        </div>
+        {{ if .Truncated }}
+        <p class="text-left"><a class="read-more" href="{{ .Permalink }}">ادامه مطلب &larr; </a></p>
+        {{ end }}
+    </div>
+</article>

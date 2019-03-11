@@ -1,0 +1,17 @@
+<!-- Include the head/header -->
+{{ partial "header.html" . }}
+
+<!-- Content goes here -->
+<div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+  <div class="row" id="content">
+    {{ range $index, $page := .Pages }}
+    {{ if ne $index 0 }}
+    {{ end }}
+    {{ .Render "li" }}
+    {{ end }}
+    <!--{{ partial "pagination.html" .Paginator }}-->
+  </div>
+</div>
+
+<!-- Include the site info and footer -->
+{{ partial "footer.html" . }}

@@ -1,0 +1,13 @@
+baseURL = "blog.chabokpush.com"
+languageCode = "en-us"
+title = "Chabok web site"
+theme = "chabok-theme"
+
+[languages]
+  [languages.en]
+    title = "بلاگ چابک‌"
+  [languages.fa]
+    title = "چابک"
+
+[params]
+  copyright = 'Copyright &#xA9; 2018 chabok. All Rights Reserved.'

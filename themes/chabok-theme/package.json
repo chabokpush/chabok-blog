@@ -1,0 +1,24 @@
+{
+  "name": "chabok-web",
+  "version": "2.0.0",
+  "description": "chabok new website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chabokpush/chabok-web.git"
+  },
+  "keywords": [
+    "chabok",
+    "website",
+    "blog"
+  ],
+  "author": "Amirhossein Yaghoobi <a.yaghoobi.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chabokpush/chabok-web/issues"
+  },
+  "homepage": "https://github.com/chabokpush/chabok-web#readme"
+}

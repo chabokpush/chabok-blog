@@ -1,0 +1,12 @@
+name = "Chabok Theme"
+license = "MIT"
+description = "Chabok site theme"
+homepage = "https://chabok.io"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Amirhossein Yaghoobi"
+  homepage = "https://chabok.io"
+
