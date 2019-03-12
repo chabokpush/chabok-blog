@@ -257,7 +257,9 @@ footer .nav-link {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
+.list-header{
+    min-height: 38px;
+}
 .avatar{
     height: 30px;
     width: 30px;
