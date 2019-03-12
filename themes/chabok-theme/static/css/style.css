@@ -253,7 +253,7 @@ footer .nav-link {
 }
 .summary-text{
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 3!important;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
