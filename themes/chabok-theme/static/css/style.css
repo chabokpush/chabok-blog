@@ -250,6 +250,13 @@ footer .nav-link {
     text-align: justify;
     line-height: 26px;
     word-break: break-word;
+
+}
+.summaryText{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .avatar{
     height: 30px;
