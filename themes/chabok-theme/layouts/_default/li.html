@@ -3,7 +3,7 @@
         <div class="row" style='height: 200px;background-image: url({{ .Site.BaseURL }}/images/{{ .Params.img }});background-size: cover;'>
             <!--<img src="{{ .Site.BaseURL }}/images/{{ .Params.img }}" alt="">-->
         </div>
-        <header>
+        <header class="list-header">
             {{ if .Title }}
             <h2 class="list-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             {{ end }}
@@ -15,7 +15,7 @@
         </header>
 
         <div class="summary">
-            <p class="summaryText">{{ .Params.summary }}</p>
+            <p class="summary-text">{{ .Params.summary }}</p>
         </div>
         <div>
             <div class="avatar" style='background-image: url({{ .Site.BaseURL }}/images/{{ .Params.avatar }})'></div>

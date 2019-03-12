@@ -252,11 +252,14 @@ footer .nav-link {
     word-break: break-word;
 
 }
-.summaryText{
+.summary-text{
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+.list-header{
+    min-height: 38px;
 }
 .avatar{
     height: 30px;
