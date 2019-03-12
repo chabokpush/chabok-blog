@@ -251,7 +251,7 @@ footer .nav-link {
     line-height: 26px;
     word-break: break-word;
 }
-.summary-text{
+.summarytext{
     display: -webkit-box;
     -webkit-line-clamp: 3!important;
     -webkit-box-orient: vertical;
