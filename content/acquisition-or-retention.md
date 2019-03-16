@@ -92,14 +92,15 @@ description: 'در این مطلب از بلاگ چابک به مقایسه جذ
 
 
 
-<p style="text-align: center;"><img alt width=90% src="http://uupload.ir/files/274_app-branding.jpg" /></p>
-
 
 <br>
 <br>
 
 منابع:
-- [clearbridgemobile](https://clearbridgemobile.com/mobile-app-vs-mobile-website-which-is-the-better-option/) 
-- [jmango360](https://jmango360.com/wiki-pages-trends/mobile-app-vs-mobile-website-statistics//) 
-- [Criteo](https://www.criteo.com/) 
+
+- [LeanPlum](http://Leanplum.com)
+ 
+- [medium](https://Medium.com) 
+
+- [localytics](https://www.localytics.com/) 
 
