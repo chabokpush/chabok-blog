@@ -298,3 +298,9 @@ footer .nav-link {
 .mt-60{
     margin-top: 60px!important;
 }
+.rtl{
+    direction: rtl!important;
+}
+.ltr{
+    direction: ltr!important;
+}
