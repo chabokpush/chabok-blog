@@ -1,4 +1,4 @@
-baseURL = "blog.chabokpush.com"
+baseURL = "https://new.chabok.io"
 languageCode = "en-us"
 title = "Chabok web site"
 theme = "chabok-theme"
