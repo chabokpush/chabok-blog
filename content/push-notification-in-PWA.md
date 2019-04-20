@@ -1,7 +1,7 @@
 ---
 title: "قابلیت‌ وب اپلیکیشن‌های PWA ‌برای افزایش نرخ بازگشت کاربران"
 date: 2019-04-20T11:00:09+03:30
-draft: true
+draft: false
 author: رعنا آخوندی
 avatar: placeholder.jpg
 img: pwa.jpg
