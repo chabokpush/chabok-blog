@@ -44,7 +44,10 @@ description: 'در این مطلب از بلاگ چابک نحوه بهینه س
 <br>
 
 منابع:
-- [AppsFlyer](appsflyer.com) 
+- [AppsFlyer](appsflyer.com)
+
 - [LeanPlum](leanplum.com)
+
 - [Localytics](https://www.localytics.com/features/mobile-attribution/)
+
 - [Branch](branch.com)

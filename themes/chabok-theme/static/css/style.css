@@ -251,7 +251,7 @@ footer .nav-link {
     line-height: 26px;
     word-break: break-word;
 }
-.summary-text{
+.summarytext{
     display: -webkit-box;
     -webkit-line-clamp: 3!important;
     -webkit-box-orient: vertical;
@@ -297,4 +297,13 @@ footer .nav-link {
 }
 .mt-60{
     margin-top: 60px!important;
+}
+.rtl{
+    direction: rtl!important;
+}
+.ltr{
+    direction: ltr!important;
+}
+.font18{
+    font-size: 18px!important;
 }
