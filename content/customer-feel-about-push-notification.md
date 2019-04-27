@@ -56,3 +56,8 @@ description: ' ارسال پوش نوتیفیکیشن های آزاردهنده 
   <li>از پوش‌های مبتنی بر موقعیت استفاده کنید.</li>
   اگر کسب‌و‌کار شما به موقعیت جغرافیایی کاربر ارتباطی دارد، از این ویژگی استفاده کنید تا بتوانید اعلان‌های شخصی‌سازه شده‎تری ارسال کنید
 </ul> 
+  
+<p style="text-align: center;">
+    <a style="display: inline-block; text-align: center; border-radius: 40px; background: #4285f4; color: white !important; padding: 7px 25px; margin-right: 15px; cursor: pointer; transition: all 0.25s ease;" href="https://sandbox.push.adpdigital.com/login"> اولین کمپین ارسال پوش نوتیفیکیشن خود را شروع کنید</a>
+
+</p>
