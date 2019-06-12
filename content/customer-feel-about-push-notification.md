@@ -5,7 +5,7 @@ draft: false
 author: رعنا آخوندی
 avatar: RanaAkhoondi.jpg
 img: pushresized1.jpg
-summary: 'رسال پوش نوتیفیکیشن‌ یکی از راه‌های اثربخش برای برقراری ارتباط با کاربران یک اپلیکیشن است. اما آیا همه پوش نوتیفیکیشن‌هایی که کاربر روی تلفن همراه خود دریافت می‌کند، برای او جذاب خواهد بود؟'
+summary: 'ارسال پوش نوتیفیکیشن‌ یکی از راه‌های اثربخش برای برقراری ارتباط با کاربران یک اپلیکیشن است. اما آیا همه پوش نوتیفیکیشن‌هایی که کاربر روی تلفن همراه خود دریافت می‌کند، برای او جذاب خواهد بود؟'
 description: ' ارسال پوش نوتیفیکیشن های آزاردهنده میتواند منجر به شکست استراتژی های بازاریابی شود. در عوض،ارسال پوش هدفمند و شخصی سازی شده پتانسیل افزایش نرخ بازگشت کاربر به اپلیکیشن را دارد. '
 ---
 
@@ -58,6 +58,6 @@ description: ' ارسال پوش نوتیفیکیشن های آزاردهنده 
 </ul> 
   
 <p style="text-align: center;">
-    <a style="display: inline-block; text-align: center; border-radius: 40px; background: #4285f4; color: white !important; padding: 7px 25px; margin-right: 15px; cursor: pointer; transition: all 0.25s ease;" href="https://sandbox.push.adpdigital.com/login"> اولین کمپین ارسال پوش نوتیفیکیشن خود را شروع کنید</a>
+    <a style="display: inline-block; text-align: center; border-radius: 40px; background: #4285f4; color: white !important; padding: 7px 25px; margin-right: 15px; cursor: pointer; transition: all 0.25s ease;" href="https://sandbox.push.adpdigital.com/front/dashboard/Analytical?token=ff7cb06dbcc4e46ff6c6f0d0e943d8fb8180efff-%7C-5a07f2d46fd7d7f040c6c766"> اولین کمپین ارسال پوش نوتیفیکیشن خود را شروع کنید</a>
 
 </p>
