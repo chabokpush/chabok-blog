@@ -301,3 +301,22 @@ footer .nav-link {
 .mb-0{
     margin-bottom: 0!important;
 }
+.push-benefit{
+    background-color: #F7F7F7;
+    padding: 15px;
+    border-radius: 7px;
+}
+.my_list
+{
+    background-color: #E4F1FA;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.my_benefit
+{
+    background-color: #C6EAF7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
